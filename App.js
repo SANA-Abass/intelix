@@ -1,3 +1,32 @@
+import 'react-native-gesture-handler';
+import React from 'react';
+import MainStackNavigator from './src/navigation/MainStackNavigator';
+
+
+
+export default function App(){
+  return <MainStackNavigator/>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ANCIEN CODE INTELIX APP VERSION 1
+
 import React from 'react';
 import {Image} from 'react-native';
 import {createSwitchNavigator, createAppContainer } from 'react-navigation';
@@ -28,7 +57,6 @@ const TabNavigator = createBottomTabNavigator({
   Chats: AppStack,
   Profile: ProfileScreen
 },{
-
   defaultNavigationOptions:({navigation}) =>({
     tabBarIcon:({focused, horizontal, tintColor}) => {
       const { routeName } = navigation.state;
@@ -58,3 +86,5 @@ export default createAppContainer(createSwitchNavigator(
     initialRouteName: 'AuthLoading',
   }
 ));
+
+*/

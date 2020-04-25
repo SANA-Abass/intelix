@@ -1,4 +1,4 @@
-const String = {
+const Strings= {
     Join: "Connexion",
     InvalidEmailAdress: "L'adresse email est invalide",
     PasswordFieldEmpty: "Le mot de passe est invalide",
@@ -15,4 +15,4 @@ const String = {
     Cancel: "Annuler"
 };
 
-export default String;
+export default Strings;

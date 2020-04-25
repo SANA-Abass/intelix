@@ -1,10 +1,10 @@
 import {Dimensions, Platform} from 'react-native';
-import colors from '../utils/colors';
+import colors from '../utils/Colors';
 
 let headerHeight = Platform.OS === 'ios' ? 66 : 46;
 let footerHeight = 55;
 
-const constants = {
+const Constants = {
     headerHeight: headerHeight,
     footerHeight: footerHeight,
     viewHeight: Dimensions.get('window').height - headerHeight,
@@ -15,4 +15,4 @@ const constants = {
     divider: {backgroundColor: colors.smoke}
 };
 
-export default constants;
+export default Constants;

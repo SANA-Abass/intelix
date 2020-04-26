@@ -11,7 +11,9 @@ const Colors = {
     yps: '#637599',
     ypsLight: '#7B92BF',
     cosmic: '#963D32',
-    intelixGreen: '#268e8a'
+    intelixGreen: '#268e8a',
+    red: 'red',
+    intelixGray: '#e1e1e1'
 };
 
 export default Colors;

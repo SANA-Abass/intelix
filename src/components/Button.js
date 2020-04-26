@@ -5,14 +5,14 @@ import Color from '../utils/Colors';
 const Button = (props) => {
     const {title = 'Valider', style = {},textStyle = {}, onPress} = props;
     return (
-        <TouchableOpacity onPress={onPress} style={[styles.button, style]}>
-            <Text style={[styles.text, textStyle]}> {title} </Text>
+        <TouchableOpacity onPress={onPress} style={[styles.Button, style]}>
+            <Text style={[styles.Text, textStyle]}> {title} </Text>
         </TouchableOpacity>
     )
 }
 
 const styles = StyleSheet.create({
-    button:{
+    Button:{
         display: 'flex',
         height: 50,
         borderRadius: 100,
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
         shadowRadius: 100
     },
 
-    text: {
+    Text: {
         fontSize: 16,
         textTransform: 'uppercase',
         fontWeight: 'bold',

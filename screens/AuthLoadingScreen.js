@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import { ActivityIndicator, AsyncStorage, StatusBar, View, ActivityIndicatorComponent } from 'react-native';
 import firebase from 'firebase';
@@ -11,7 +12,7 @@ export default class AuthLoadingScreen extends React.Component {
     }
 
     componentDidMount() {
-        var firebaseConfig = {
+        var firrrrrrebaseConfig = {
             apiKey: "AIzaSyB2kpFHK7ceYpDnVKwJFv5tIfNufRD6Q7I",
             authDomain: "intelix-corp.firebaseapp.com",
             databaseURL: "https://intelix-corp.firebaseio.com",
@@ -39,3 +40,4 @@ export default class AuthLoadingScreen extends React.Component {
         );
     }
 }
+*/

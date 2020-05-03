@@ -183,6 +183,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9819C9D90A3340ACB92F37E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		DF62513D623D8EF345C2C2C4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,17 +202,8 @@
 				B40FAED3DFA030132585FE1E /* Pods-intelix-tvOSTests.debug.xcconfig */,
 				3A61468C42729B344D36C816 /* Pods-intelix-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		9819C9D90A3340ACB92F37E1 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -296,7 +294,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1140;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -691,6 +689,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 093199BDAE42F10AEAF17868 /* Pods-intelix-intelixTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -714,6 +713,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2E6DD7AB21DA6E136BC1CDFE /* Pods-intelix-intelixTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = intelixTests/Info.plist;

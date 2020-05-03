@@ -14,9 +14,9 @@ var firebaseConfig = {
     messagingSenderId: MESSAGING_SENDER_ID,
     appId: APP_ID
 };
-// if (!firebase.apps.length) {
-//     firebase.initializeApp(firebaseConfig)
-// }
-firebase.initializeApp(firebaseConfig)
-export const firestore = firebase.firestore()
+if (!firebase.apps.length) {
+    firebase.initializeApp(firebaseConfig)
+}
+//firebase.initializeApp(firebaseConfig)
+//export const firestore = firebase.firestore()
 export default firebase

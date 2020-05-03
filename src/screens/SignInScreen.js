@@ -56,12 +56,12 @@ function SignInScreen() {
                         }).catch((error) => {
                             setIsLoading(false);
                             console.log('error');
-                            Alert.alert(error);
+                            Alert.alert(error.message);
                         })
                 })
         } catch (error) {
             setIsLoading(false);
-            Alert.alert(error);
+            Alert.alert(error.message);
         }
     }
 
@@ -90,8 +90,8 @@ function SignInScreen() {
 
                         <Button
                             title={Strings.Join}
-                        // onPress = {}
-                        // isLoading = {isLoading}
+                            onPress = {performAuth}
+                            isLoading = {isLoading}
                         />
                     </SafeAreaView>
                 </View>
